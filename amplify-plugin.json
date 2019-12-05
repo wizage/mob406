@@ -1,0 +1,16 @@
+{
+    "name": "my-amplify-plugin",
+    "type": "category",
+    "commands": [
+        "version",
+        "help",
+        "add",
+        "remove"
+    ],
+    "eventHandlers": [
+        "PreInit",
+        "PostInit",
+        "PrePush",
+        "PostPush"
+    ]
+}
